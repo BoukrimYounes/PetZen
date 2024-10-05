@@ -1,0 +1,16 @@
+{
+  "name": "petzen",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/css/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
+  },
+  "author": "Younes Boukrim",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

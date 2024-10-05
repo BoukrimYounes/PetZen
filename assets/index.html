@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Petzen</title>
+  </head>
+  <body class="font-OpenSans">
+    <header class="container">
+      <nav class="flex items-center justify-between py-2.5 mx-2 relative">
+        <a href="#">
+          <h1 class="text-black font-paytone text-3xl capitalize leading-none">
+            Pet <span class="text-primary">Zen</span>
+          </h1>
+        </a>
+        <ul
+          class="hidden list-none capitalize lg:flex text-black space-x-6 items-center"
+        >
+          <li>
+            <a
+              href="#home"
+              class="text-black hover:text-primary transition duration-300 ease-linear"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#servicos"
+              class="text-black hover:text-primary transition duration-300 ease-linear"
+              >Serviços</a
+            >
+          </li>
+          <li>
+            <a
+              href="#nossoapp"
+              class="text-black hover:text-primary transition duration-300 ease-linear"
+              >Nosso App</a
+            >
+          </li>
+          <li>
+            <a
+              href="#sobre"
+              class="text-black hover:text-primary transition duration-300 ease-linear"
+              >Sobre</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Contate-Nos"
+              class="text-black hover:text-primary transition duration-300 ease-linear"
+              >Contate-Nos</a
+            >
+          </li>
+          <li><a href="#" class="btn inline-block">Acessar</a></li>
+        </ul>
+        <button
+          type="button"
+          class="burger-menu inline-flex items-center w-10 h-10 justify-center text-base text-second rounded-lg lg:hidden hover:bg-primary/80 focus:outline-none focus:ring-2 focus:ring-yellow-300"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <ul
+          class="nav-menu list-none capitalize text-black font-semibold flex flex-col gap-[1.5px] p-3 rounded-xl lg:hidden absolute top-full left-0 right-0 min-w-full bg-greybackground items-stretch hidden"
+        >
+          <li>
+            <a
+              href="#home"
+              class="text-white py-2 px-4 block rounded-md hover:bg-primary transition duration-700 ease-linear"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#servicos"
+              class="text-white py-2 px-4 block rounded-md hover:bg-primary transition duration-700 ease-linear"
+              >Serviços</a
+            >
+          </li>
+          <li>
+            <a
+              href="#nossoapp"
+              class="text-white py-2 px-4 block rounded-md hover:bg-primary transition duration-700 ease-linear"
+              >Nosso App</a
+            >
+          </li>
+          <li>
+            <a
+              href="#sobre"
+              class="text-white py-2 px-4 block rounded-md hover:bg-primary transition duration-700 ease-linear"
+              >Sobre</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Contate-Nos"
+              class="text-white py-2 px-4 block rounded-md hover:bg-primary transition duration-700 ease-linear"
+              >Contate-Nos</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section
+        id="home"
+        class="mx-6 py-5 flex flex-col-reverse gap-5 sm:flex-row items-center justify-between"
+      >
+        <div class="w-full sm:w-1/2">
+          <h1
+            class="mb-2.5 md:mb-5 text-black font-paytone font-medium text-center sm:text-left text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
+          >
+            O melhor suporte no cuidado para seu
+            <span class="text-primary font-extrabold">melhor amigo</span>
+          </h1>
+          <p
+            class="mb-2.5 md:mb-5 text-second font-extralight text-center sm:text-left md:w-[70%]"
+          >
+            Aqui, você encontrará respostas para todas as suas dúvidas, desde a
+            escolha da melhor ração até dicas essenciais para garantir o
+            bem-estar do seu companheiro peludo.
+          </p>
+          <a href="#" class="btn block mx-auto sm:m-0 md:mt-3">Acessar</a>
+        </div>
+        <div class="w-full sm:w-1/2">
+          <img class="w-full" src="./images/cat&doge.svg" alt="" />
+        </div>
+      </section>
+    </header>
+    <section id="servicos" class="container my-10">
+      <h2
+        class="w-auto px-6 font-OpenSans font-bold text-second text-center mx-auto text-2xl leading-[2.5rem] md:text-3xl md:leading-[3rem] lg:text-4xl lg:leading-[3.5rem] lg:w-[55%]"
+      >
+        Saiba dicas essenciais para dar o conforto que o seu pet merece!
+      </h2>
+      <div
+        class="w-auto mx-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-12 mt-10 mb-10"
+      >
+        <div
+          class="cart-service text-center py-4 px-2 rounded-xl shadow-md cursor-pointer transition duration-500 ease-linear hover:shadow-lg"
+        >
+          <img
+            class="p-2 mx-auto mb-2 bg-yellow-100 rounded-md rounded-tl-xl rounded-br-3xl"
+            src="./images/iconservice5.png"
+            alt=""
+          />
+          <h4 class="capitalize font-extrabold text-2xl mb-2.5">
+            Adestramento
+          </h4>
+          <p class="text-second font-light leading-tight text-sm sm:text-base">
+            Corrija comportamentos, eduque, divirta-se e fortaleça a relação com
+            seu pet.
+          </p>
+        </div>
+        <div
+          class="cart-service text-center py-4 px-2 rounded-xl shadow-md cursor-pointer transition duration-300 ease-linear hover:shadow-lg"
+        >
+          <img
+            class="p-2 mx-auto mb-2 bg-yellow-100 rounded-md rounded-tl-xl rounded-br-3xl"
+            src="./images/iconservice4.png"
+            alt=""
+          />
+          <h4 class="capitalize font-extrabold text-2xl mb-2.5">Alimentação</h4>
+          <p class="text-second font-light leading-tight text-sm sm:text-base">
+            Saiba dietas equilibradas, aprenda sobre dietas caseiras, escolha a
+            melhor ração e muito mais.
+          </p>
+        </div>
+        <div
+          class="cart-service text-center py-4 px-2 rounded-xl shadow-md cursor-pointer transition duration-300 ease-linear hover:shadow-lg"
+        >
+          <img
+            class="p-2 mx-auto mb-2 bg-yellow-100 rounded-md rounded-tl-xl rounded-br-3xl"
+            src="./images/iconservice3.png"
+            alt=""
+          />
+          <h4 class="capitalize font-extrabold text-2xl mb-2.5">Adoção</h4>
+          <p class="text-second font-light leading-tight text-sm sm:text-base">
+            Descubra nomes encantadores, dicas, o que fazer e tudo o que você
+            precisa saber para adotar um pet.
+          </p>
+        </div>
+        <div
+          class="cart-service text-center py-4 px-2 rounded-xl shadow-md cursor-pointer transition duration-300 ease-linear hover:shadow-lg"
+        >
+          <img
+            class="p-2 mx-auto mb-2 bg-yellow-100 rounded-md rounded-tl-xl rounded-br-3xl"
+            src="./images/iconservice2.png"
+            alt=""
+          />
+          <h4 class="capitalize font-extrabold text-2xl mb-2.5">Saúde</h4>
+          <p class="text-second font-light leading-tight text-sm sm:text-base">
+            Aprenda tudo o que precisa saber sobre a saúde do seu pet e proteja
+            seu pet de doenças.
+          </p>
+        </div>
+        <div
+          class="cart-service text-center py-4 px-2 rounded-xl shadow-md cursor-pointer transition duration-300 ease-linear hover:shadow-lg"
+        >
+          <img
+            class="p-2 mx-auto mb-2 bg-yellow-100 rounded-md rounded-tl-xl rounded-br-3xl"
+            src="./images/iconservice1.png"
+            alt=""
+          />
+          <h4 class="capitalize font-extrabold text-2xl mb-2.5">Cuidados</h4>
+          <p class="text-second font-light leading-tight text-sm sm:text-base">
+            Entenda o cio, gestação, higiene dental, cuidado das orelhas e muito
+            mais.
+          </p>
+        </div>
+        <div
+          class="cart-service text-center py-4 px-2 rounded-xl shadow-md cursor-pointer transition duration-300 ease-linear hover:shadow-lg"
+        >
+          <img
+            class="p-2 mx-auto mb-2 bg-yellow-100 rounded-md rounded-tl-xl rounded-br-3xl"
+            src="./images/iconservice.png"
+            alt=""
+          />
+          <h4 class="capitalize font-extrabold text-2xl mb-2.5">
+            Curiosidades
+          </h4>
+          <p class="text-second font-light leading-tight text-sm sm:text-base">
+            Aprenda dicas, descubra espécies em perigo de extinção, saiba
+            diversas raças e muito mais.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container my-10">
+      <div
+        class="w-auto mx-6 my-16 rounded-lg bg-greybackground flex items-center relative"
+      >
+        <div class="w-full lg:w-[70%] py-5 px-10">
+          <h3
+            class="font-bold text-2xl lg:text-3xl text-second text-center lg:text-left mb-2.5"
+          >
+            Você e o seu pet ainda mais conectados!
+          </h3>
+          <p
+            class="font-medium text-lg lg:text-xl text-second text-center lg:text-left mb-2.5"
+          >
+            Nosso app simplifica a vida do tutor, registrando o histórico de
+            saúde do pet, gerenciando gastos mensais e conectando você a uma
+            comunidade animada de pais de pets.
+          </p>
+          <a href="#" class="btn block mt-5 mx-auto lg:m-0">Acessar agora!</a>
+        </div>
+        <img
+          class="hidden w-[25%] lg:absolute lg:right-0 lg:block"
+          src="./images/cat.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <section id="nossoapp" class="container my-10">
+      <div
+        class="w-auto mx-6 flex flex-col-reverse lg:flex-row items-center gap-5"
+      >
+        <div
+          class="hidden w-full lg:w-[40%] lg:flex items-start justify-center relative"
+        >
+          <img
+            class="w-full lg:w-[80%] xl:w-[60%]"
+            src="./images/app.png"
+            alt=""
+          />
+        </div>
+        <div class="w-full lg:w-[60%]">
+          <h1
+            class="text-black font-OpenSans font-extrabold text-center mb-5 lg:text-left text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
+          >
+            BAIXE O NOSSO APP!
+          </h1>
+          <div class="mb-5 text-center lg:text-left">
+            <p
+              class="flex items-center justify-center lg:justify-start text-lg font-paytone sm:text-2xl font-semibold text-second mb-2.5"
+            >
+              <img
+                src="./images/clock.svg"
+                alt=""
+                class="h-8 mr-4 hidden sm:block"
+              />
+              Alertas e lembretes inteligentes
+            </p>
+            <p
+              class="text-gray-600/65 leading-relaxed font-OpenSans text-base sm:text-lg"
+            >
+              Receba notificações personalizadas para vacinas, consultas
+              veterinárias e outras necessidades, garantindo que você nunca
+              perca um cuidado essencial para o seu pet.
+            </p>
+          </div>
+          <div class="mb-5 text-center lg:text-left">
+            <p
+              class="flex items-center justify-center lg:justify-start text-lg font-paytone sm:text-2xl font-semibold text-second mb-2.5"
+            >
+              <img
+                src="./images/apps.svg"
+                alt=""
+                class="h-8 mr-4 hidden sm:block"
+              />
+              Interface amigável para todos
+            </p>
+            <p
+              class="text-gray-600/65 leading-relaxed font-OpenSans text-base sm:text-lg"
+            >
+              Nosso App é projetada para ser intuitiva, permitindo que todos,
+              independentemente da experiência digital, possam aproveitar ao
+              máximo os recursos do aplicativo..
+            </p>
+          </div>
+          <div class="mb-5 text-center lg:text-left">
+            <p
+              class="flex items-center justify-center lg:justify-start text-lg font-paytone sm:text-2xl font-semibold text-second mb-2.5"
+            >
+              <img
+                src="./images/night.svg"
+                alt=""
+                class="h-8 mr-4 hidden sm:block"
+              />
+              Design intuitivo e atraente
+            </p>
+            <p
+              class="text-gray-600/65 leading-relaxed font-OpenSans text-base sm:text-lg"
+            >
+              Desfrute de uma interface visualmente agradável e fácil de
+              navegar, projetada para proporcionar uma experiência fluida e
+              atraente a cada usuário.
+            </p>
+          </div>
+          <button
+            class="outline-none border-none rounded-lg shadow-md flex items-center justify-center gap-2 px-4 py-2 bg-white text-lg font-semibold cursor-pointer mx-auto transition duration-300 ease-linear hover:shadow-lg lg:m-0"
+          >
+            Download App <img src="./images/iphone.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container my-10">
+      <h2
+        class="font-OpenSans font-bold text-second text-center mx-auto text-2xl leading-[2.5rem] md:text-3xl md:leading-[3rem] lg:text-4xl lg:leading-[3.5rem] lg:w-[55%]"
+      >
+        Saiba o que os usuários do
+        <span class="font-paytone font-extrabold"
+          >Pet <span class="text-primary">Zen</span></span
+        >
+        estão achando do App!
+      </h2>
+      <div
+        class="w-auto mx-6 mt-10 flex items-center justify-center gap-5 flex-wrap"
+      >
+        <div
+          class="self-stretch w-full lg:w-[48%] xl:w-[32%] bg-white pt-8 pb-4 px-6 rounded-3xl border-[1.5px] shadow-[0px_5px_0px_0px_#2d3748] border-second"
+        >
+          <div class="flex items-end gap-5 text-second relative">
+            <img src="./images/Picture.png" alt="" />
+            <div>
+              <span class="block font-SpaceGrotesk text-xl text-second"
+                >Carlos Santana</span
+              >
+              <span class="block mt-2 text-sm text-second">Tutor de gato</span>
+            </div>
+            <div class="bg-primary p-2 absolute top-0 right-0 rounded-full">
+              <img class="h-4" src="./images/legsdog.svg" alt="" />
+            </div>
+          </div>
+          <div class="w-full h-[1.5px] bg-slate-300 my-4"></div>
+          <p class="text-second text-left tracking-wider font-SpaceGrotesk">
+            O app simplificou o treinamento e me manteve atualizado sobre a
+            saúde do meu amigo peludo. Nunca foi tão fácil proporcionar o melhor
+            para ele. Recomendo a todos os amantes de animais!
+          </p>
+        </div>
+        <div
+          class="self-stretch w-full lg:w-[48%] xl:w-[32%] bg-white pt-8 pb-4 px-6 rounded-3xl border-[1.5px] shadow-[0px_5px_0px_0px_#2d3748] border-second"
+        >
+          <div class="flex items-end gap-5 text-second relative">
+            <img src="./images/Picture1.png" alt="" />
+            <div>
+              <span class="block font-SpaceGrotesk text-xl text-second"
+                >Giovanna Lima</span
+              >
+              <span class="block mt-2 text-sm text-second"
+                >Tutora de cachorro
+              </span>
+            </div>
+            <div class="bg-primary p-2 absolute top-0 right-0 rounded-full">
+              <img class="h-4" src="./images/legsdog.svg" alt="" />
+            </div>
+          </div>
+          <div class="w-full h-[1.5px] bg-slate-300 my-4"></div>
+          <p class="text-second text-left tracking-wider font-SpaceGrotesk">
+            Desde que comecei a usar o aplicativo, percebi uma mudança positiva
+            no comportamento do meu pet. As dicas de adestramento são valiosas!
+          </p>
+        </div>
+        <div
+          class="self-stretch w-full lg:w-[100%] xl:w-[32%] bg-white pt-8 pb-4 px-6 rounded-3xl border-[1.5px] shadow-[0px_5px_0px_0px_#2d3748] border-second"
+        >
+          <div class="flex items-end gap-5 text-second relative">
+            <img src="./images/Picture2.png" alt="" />
+            <div>
+              <span class="block font-SpaceGrotesk text-xl text-second"
+                >Regina Santos</span
+              >
+              <span class="block mt-2 text-sm text-second">Tutora de gato</span>
+            </div>
+            <div class="bg-primary p-2 absolute top-0 right-0 rounded-full">
+              <img class="h-4" src="./images/legsdog.svg" alt="" />
+            </div>
+          </div>
+          <div class="w-full h-[1.5px] bg-slate-300 my-4"></div>
+          <p class="text-second text-left tracking-wider">
+            O app não apenas me lembra das vacinas e consultas, mas também me
+            conectou a uma comunidade incrível de amantes de animais.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="sobre" class="container my-10">
+      <div
+        class="w-auto mx-6 flex flex-col-reverse gap-5 lg:gap-0 lg:flex-row items-center justify-between"
+      >
+        <div class="w-full lg:w-1/2">
+          <h2
+            class="mb-3 md:mb-6 font-OpenSans font-bold text-second text-center lg:text-left text-2xl leading-[2.5rem] md:text-3xl md:leading-[3rem] lg:text-4xl lg:leading-[3.5rem]"
+          >
+            Não perca as nossas atualizações!
+          </h2>
+          <p
+            class="mb-3 md:mb-6 text-gray-400 text-center lg:text-left text-base md:text-lg"
+          >
+            Cadastre-se para receber novidades, novas ferramentas, descontos,
+            atualizações...
+          </p>
+          <div class="flex flex-col gap-5 md:gap-5 mb-3 md:mb-6">
+            <p
+              class="text-gray-400 text-center lg:text-left text-base md:text-lg"
+            >
+              <span
+                class="py-1 px-2 bg-primary/35 text-gray-500 font-semibold rounded mr-2"
+                >01</span
+              >Receba atualizações em primeira mão
+            </p>
+            <p
+              class="text-gray-400 text-center lg:text-left text-base md:text-lg"
+            >
+              <span
+                class="py-1 px-2 bg-primary/35 text-gray-500 font-semibold rounded mr-2"
+                >02</span
+              >Obtenha cupons de descontos
+            </p>
+            <p
+              class="text-gray-400 text-center lg:text-left text-base md:text-lg"
+            >
+              <span
+                class="py-1 px-2 bg-primary/35 text-gray-500 font-semibold rounded mr-2"
+                >03</span
+              >Leia artigos sobre temas relevantes
+            </p>
+          </div>
+          <div
+            class="border-[1.5px] border-second rounded-full flex justify-between mt-7 overflow-hidden"
+          >
+            <input
+              class="w-[92%] py-4 outline-none border-none px-6 text-gray-400 text-base md:text-lg placeholder:text-base placeholder:md:text-lg"
+              placeholder="Insira o seu email..."
+              type="text"
+              name=""
+              id=""
+            />
+            <div class="w-[4rem] bg-primary flex items-center justify-center">
+              <img src="./images/arrow-right.svg" alt="" class="w-6" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full lg:w-1/2 flex items-center justify-center lg:justify-end"
+        >
+          <img class="w-[90%]" src="./images/dog.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section
+      id="Contate-Nos"
+      class="container mt-10 py-10 rounded-t-[70px] bg-greybackground"
+    >
+      <div
+        class="w-auto mx-6 flex flex-wrap items-start justify-between md:flex-row gap-5"
+      >
+        <div class="flex items-start flex-col gap-7">
+          <a href="#">
+            <h1
+              class="text-black font-paytone text-3xl capitalize leading-none"
+            >
+              Pet <span class="text-primary">Zen</span>
+            </h1>
+          </a>
+          <ul class="list-none capitalize flex flex-col gap-2.5 items-left">
+            <li>
+              <a
+                href="#home"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#servicos"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Serviços</a
+              >
+            </li>
+            <li>
+              <a
+                href="#nossoapp"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Nosso App</a
+              >
+            </li>
+            <li>
+              <a
+                href="#sobre"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Sobre</a
+              >
+            </li>
+            <li>
+              <a
+                href="#Contate-Nos"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Contate-Nos</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-start flex-col gap-7">
+          <h1 class="text-black font-paytone text-3xl capitalize leading-none">
+            Entre em contato:
+          </h1>
+          <ul class="list-none capitalize flex flex-col items-left gap-2.5">
+            <li>
+              <a
+                href="#"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Email: email@gmail.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Phone: 73 9 9999-9999</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-black hover:text-primary transition duration-300 ease-linear"
+                >Endereço:
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-start flex-col gap-7 w-full md:w-[30%]">
+          <h1 class="text-black font-paytone text-3xl capitalize leading-none">
+            Contate-nos:
+          </h1>
+          <div
+            class="flex flex-col gap-5 items-center w-[-webkit-fill-available]"
+          >
+            <input
+              class="w-full py-2 outline-none border-[1.5px] px-6 rounded-lg text-gray-400 text-base md:text-lg placeholder:text-base placeholder:md:text-lg"
+              type="text"
+              placeholder="Email"
+            />
+            <a
+              href="#"
+              class="w-full text-center text-white bg-primary hover:bg-yellow-400 font-semibold rounded-lg text-base px-6 py-2.5"
+              >Inscreva-se no Newsletter</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="w-auto mx-6 my-5 h-[1.5px] bg-second"></div>
+      <div
+        class="text-center flex items-center flex-col justify-between gap-2.5 w-auto mx-6 lg:flex-row lg:w-[80%] xl:w-[70%] 2xl:w-[60%]"
+      >
+        <p class="text-gray-600 text-base capitalize">
+          &copy; <span id="copyright">2024</span> Danielle Fragas. Todo os
+          direitos reservados.
+        </p>
+        <p class="text-gray-600 underline text-base capitalize">
+          Política de Privacidade
+        </p>
+        <p class="text-gray-600 underline text-base capitalize">
+          Política de Cookies
+        </p>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
